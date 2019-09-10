@@ -1,13 +1,13 @@
-package FlamberAndroid.akushnir.ui.send
+package flamber.akushnir.ui.tools
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SendViewModel : ViewModel() {
+class ToolsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is send Fragment"
+        value = "This is tools Fragment"
     }
     val text: LiveData<String> = _text
 }

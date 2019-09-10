@@ -1,4 +1,4 @@
-package FlamberAndroid.akushnir
+package flamber.akushnir
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
